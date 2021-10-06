@@ -1,0 +1,403 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  /* pointer-events:none; */
+  width:100%;
+  margin-left:0;
+  height:1024px;
+  min-width:200px;
+  max-width:1440px;
+  margin:auto;
+  background-color:rgba(0, 0, 0, 1);
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  /* overflow:hidden; */
+}
+.Frame-outer{
+  /* pointer-events:none; */
+  z-index:2;
+}
+.Menu{
+  position:relative;
+  z-index:14;
+  /* pointer-events:none; */
+  margin-left:71px;
+  width:142px;
+  min-width:142px;
+  margin-top:30px;
+  margin-bottom:950px;
+  min-height:41px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Calistoga;
+  font-weight:400;
+  font-size:30px;
+  line-height:39.20000076293945px;
+}
+.Menu-outer{
+  /* pointer-events:none; */
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.Espa-o-Luana-Tremel{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:248px;
+  width:890px;
+  min-width:890px;
+  margin-top:-961px;
+  margin-bottom:849px;
+  min-height:109px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Calligraffitti;
+  font-weight:400;
+  font-size:80px;
+  line-height:124.80000305175781px;
+}
+.Espa-o-Luana-Tremel-outer{
+  pointer-events:none;
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Servi-os-Cabelo{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:618px;
+  width:338px;
+  min-width:338px;
+  margin-top:-798px;
+  margin-bottom:744px;
+  min-height:51px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:45px;
+  line-height:53.60000228881836px;
+}
+.Servi-os-Cabelo-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Escova-progressiva{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:502px;
+  width:275px;
+  min-width:275px;
+  margin-top:-700px;
+  margin-bottom:652px;
+  min-height:45px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:31.200000762939453px;
+}
+.Escova-progressiva-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.Rectangle-79{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:479px;
+  width:811px;
+  min-width:811px;
+  height:274px;
+  margin-top:-700px;
+  margin-bottom:423px;
+  min-height:274px;
+  background-color:rgba(0, 0, 0, 1);
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-79-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Imagens-1{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:142px;
+  width:290px;
+  min-width:290px;
+  height:268px;
+  margin-top:-700px;
+  margin-bottom:429px;
+  min-height:268px;
+  background-image:url(assets/images/progre.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Imagens-1-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Rectangle-74-1{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:-0.34843205574912894%;
+  width:101.04529616724739%;
+  height:100%;
+  margin-top:-0.34843205574912894%;
+  background-image:url(assets/images/Escova.JPG);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:4px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  visibility:hidden;
+}
+.Rectangle-74-1-outer{
+  pointer-events:none;
+  z-index:4;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Lavou--secou----assi{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:492px;
+  width:784px;
+  min-width:784px;
+  margin-top:-650px;
+  margin-bottom:439px;
+  min-height:208px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:31.200000762939453px;
+}
+.Lavou--secou----assi-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Escova-1{
+  position:relative;
+  z-index:16;
+  pointer-events:none;
+  margin-left:144px;
+  width:288px;
+  min-width:288px;
+  height:270.12px;
+  margin-top:-351px;
+  margin-bottom:77.88px;
+  min-height:270.12px;
+  content:url(assets/images/marrr.png);
+}
+.Escova-1-outer{
+  pointer-events:none;
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.Rectangle-80{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:484px;
+  width:811px;
+  min-width:811px;
+  height:268px;
+  margin-top:-349px;
+  margin-bottom:78px;
+  min-height:268px;
+  background-color:rgba(0, 0, 0, 1);
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-80-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Imagens{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:142px;
+  width:290px;
+  min-width:290px;
+  height:268px;
+  margin-top:-349px;
+  margin-bottom:78px;
+  min-height:268px;
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Imagens-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Rectangle-74{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:-0.34843205574912894%;
+  width:101.04529616724739%;
+  height:100%;
+  margin-top:-0.34843205574912894%;
+  background-image:url(assets/images/Escova.JPG);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:4px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  visibility:hidden;
+}
+.Rectangle-74-outer{
+  pointer-events:none;
+  z-index:6;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Escova-marroquina-vi{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:506px;
+  width:438px;
+  min-width:438px;
+  margin-top:-346px;
+  margin-bottom:298px;
+  min-height:45px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:31.200000762939453px;
+}
+.Escova-marroquina-vi-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.q--indicada-para-o-c{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:484px;
+  width:784px;
+  min-width:784px;
+  margin-top:-309px;
+  margin-bottom:73px;
+  min-height:233px;
+  text-align:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:nullpx;
+  line-height:15.199999809265137px;
+}
+.q--indicada-para-o-c-outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.q--indicada-para-o-c-1{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:15.199999809265137px;
+}
+.q--indicada-para-o-c-2{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:24px;
+  line-height: 1.2;
+}
+.q--indicada-para-o-c-3{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:15.199999809265137px;
+}
+a {
+  color: white;
+}

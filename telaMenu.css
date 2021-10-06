@@ -1,0 +1,258 @@
+.websiteBody {
+  margin: 0;
+}
+.Page {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  pointer-events: auto;
+}
+.Page-outer {
+  /* pointer-events:none; */
+  z-index: 1;
+}
+.Frame {
+  position: relative;
+  z-index: 2;
+  /* pointer-events:none; */
+  width: 100%;
+  margin-left: 0;
+  height: 1024px;
+  min-width: 200px;
+  max-width: 1440px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.Frame-outer {
+  /* pointer-events:none; */
+  z-index: 2;
+}
+.Espa-o-Luana-Tremel {
+  position: relative;
+  z-index: 9;
+  /* pointer-events:none; */
+  margin-left: 55px;
+  width: 890px;
+  min-width: 890px;
+  margin-top: 63px;
+  margin-bottom: 849px;
+  min-height: 109px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Calligraffitti;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 124.80000305175781px;
+}
+.Espa-o-Luana-Tremel-outer {
+  /* pointer-events:none; */
+  z-index: 9;
+  position: relative;
+  display: flex;
+}
+.Clique-e-Escolha-Um- {
+  position: relative;
+  z-index: 10;
+  /* pointer-events:none; */
+  margin-left: 164px;
+  width: 523px;
+  min-width: 523px;
+  margin-top: -723px;
+  margin-bottom: 668px;
+  min-height: 52px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Calligraffitti;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 63.20000076293945px;
+}
+.Clique-e-Escolha-Um--outer {
+  /* pointer-events:none; */
+  z-index: 10;
+  position: relative;
+  display: flex;
+}
+.Imagens {
+  /* 
+  PROBLEMA BOTÃO:
+  position: relative; 
+  se tirar o relative ele funciona normalmente
+  */
+
+  z-index: 7;
+  /* pointer-events:none; */
+  margin-left: 175px;
+  width: 290px;
+  min-width: 290px;
+  height: 268px;
+  margin-top: -631px;
+  margin-bottom: 360px;
+  min-height: 268px;
+}
+.Imagens-outer {
+  /* pointer-events:none; */
+  z-index: 7;
+  position: relative;
+  display: flex;
+}
+.Rectangle-74 {
+  position: relative;
+  z-index: 8;
+  /* pointer-events:none; */
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  background-image: url(assets/images/Alongamento.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 4px solid rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+}
+.Rectangle-74-outer {
+  /* pointer-events:none; */
+  z-index: 8;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.Imagens-1 {
+  /* position: relative; */
+  z-index: 5;
+  /* pointer-events:none; */
+  margin-left: 572px;
+  width: 290px;
+  min-width: 290px;
+  height: 268px;
+  margin-top: -631px;
+  margin-bottom: 360px;
+  min-height: 268px;
+}
+.Imagens-1-outer {
+  /* pointer-events:none; */
+  z-index: 5;
+  position: relative;
+  display: flex;
+}
+.Rectangle-74-1 {
+  /* position: relative; */
+  z-index: 6;
+  /* pointer-events:none; */
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  background-image: url(assets/images/Escova.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 4px solid rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+}
+.Rectangle-74-1-outer {
+  /* pointer-events:none; */
+  z-index: 6;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.Imagens-2 {
+  /* position: relative; */
+  z-index: 3;
+  /* pointer-events:none; */
+  margin-left: 973px;
+  width: 290px;
+  min-width: 290px;
+  height: 268px;
+  margin-top: -631px;
+  margin-bottom: 360px;
+  min-height: 268px;
+
+
+}
+.Imagens-2-outer {
+  /* pointer-events:none; */
+  z-index: 3;
+  position: relative;
+  display: flex;
+}
+.Rectangle-74-2 {
+  /* position: relative; */
+  z-index: 4;
+  /* pointer-events:none; */
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  background-image: url(assets/images/mass.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 4px solid rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+}
+.Rectangle-74-2-outer {
+  /* pointer-events:none; */
+  z-index: 8;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+button {
+  /* pointer-events:none; */
+  z-index: 6;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+button #imagem22 {
+  background: url(assets/images/mass.jpg) no-repeat;
+}
+
+/* quadrado que fica a imagem */
+.link-imagem {
+  width: 100%;
+
+  background-color: aliceblue;
+
+  /* 
+    única coisa que afeita o funcionamento do botão é o z-index 
+    e também o position relative da "node pai" do botão
+  */
+  z-index: 10;
+}
+
+/* ajustando a largura da imagem pra ela preencher o botão todo */
+.link-imagem img {
+  width: 100%;
+}
+
+img.teste {
+  width: 295px;
+  height: 295px;
+}

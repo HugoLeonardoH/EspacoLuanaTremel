@@ -1,0 +1,627 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  /* pointer-events:none; */
+  width:100%;
+  margin-left:0;
+  height:1768px;
+  min-width:200px;
+  max-width:1440px;
+  margin:auto;
+  background-color:rgba(0, 0, 0, 1);
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  overflow:hidden;
+}
+.Frame-outer{
+  /* pointer-events:none; */
+  z-index:2;
+}
+.Menu{
+  position:relative;
+  z-index:14;
+  /* pointer-events:none; */
+  margin-left:71px;
+  width:142px;
+  min-width:142px;
+  margin-top:30px;
+  margin-bottom:1694px;
+  min-height:41px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Calistoga;
+  font-weight:400;
+  font-size:30px;
+  line-height:39px;
+}
+.Menu-outer{
+  /* pointer-events:none; */
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.Espa-o-Luana-Tremel{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:248px;
+  width:890px;
+  min-width:890px;
+  margin-top:-1705px;
+  margin-bottom:1593px;
+  min-height:109px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Calligraffitti;
+  font-weight:400;
+  font-size:80px;
+  line-height:125px;
+}
+.Espa-o-Luana-Tremel-outer{
+  pointer-events:none;
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Servi-os-de-Unha{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:640px;
+  width:365px;
+  min-width:365px;
+  margin-top:-1545px;
+  margin-bottom:1491px;
+  min-height:51px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:45px;
+  line-height:53px;
+}
+.Servi-os-de-Unha-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Rectangle-79-1{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:479px;
+  width:811px;
+  min-width:811px;
+  height:274px;
+  margin-top:-1444px;
+  margin-bottom:1167px;
+  min-height:274px;
+  background-color:rgba(0, 0, 0, 1);
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-79-1-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Imagens-3{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:142px;
+  width:290px;
+  min-width:290px;
+  height:268px;
+  margin-top:-1444px;
+  margin-bottom:1173px;
+  min-height:268px;
+}
+.Imagens-3-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Rectangle-74-3{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:0%;
+  width:100%;
+  height:100%;
+  margin-top:0%;
+  background-image:url(assets/images/Rectangle_74_3.png);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:4px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-74-3-outer{
+  pointer-events:none;
+  z-index:4;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Blindagem-de-unhas{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:747px;
+  width:275px;
+  min-width:275px;
+  margin-top:-1439px;
+  margin-bottom:1391px;
+  min-height:45px;
+  text-align:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.Blindagem-de-unhas-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.Blindagem-de-unhas-1{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.Blindagem-de-unhas-2{
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.M-todo-que-ajuda-as-{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:492px;
+  width:784px;
+  min-width:784px;
+  margin-top:-1394px;
+  margin-bottom:1183px;
+  min-height:208px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:24px;
+  line-height:29px;
+}
+.M-todo-que-ajuda-as--outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Rectangle-80-1{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:484px;
+  width:811px;
+  min-width:811px;
+  height:268px;
+  margin-top:-1093px;
+  margin-bottom:822px;
+  min-height:268px;
+  background-color:rgba(0, 0, 0, 1);
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-80-1-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Imagens-2{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:142px;
+  width:290px;
+  min-width:290px;
+  height:268px;
+  margin-top:-1093px;
+  margin-bottom:822px;
+  min-height:268px;
+}
+.Imagens-2-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Rectangle-74-2{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:0%;
+  width:100%;
+  height:100%;
+  margin-top:0%;
+  background-image:url(assets/images/Rectangle_74_2.png);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:4px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-74-2-outer{
+  pointer-events:none;
+  z-index:6;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Esmalta--o-em-gel{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:754px;
+  width:271px;
+  min-width:271px;
+  margin-top:-1091px;
+  margin-bottom:1053px;
+  min-height:35px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.Esmalta--o-em-gel-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.Aplica-se-um-esmalte{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:484px;
+  width:784px;
+  min-width:784px;
+  margin-top:-1045px;
+  margin-bottom:835px;
+  min-height:207px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.Aplica-se-um-esmalte-outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.Rectangle-79{
+  position:relative;
+  z-index:20;
+  pointer-events:none;
+  margin-left:479px;
+  width:811px;
+  min-width:811px;
+  height:274px;
+  margin-top:-748px;
+  margin-bottom:471px;
+  min-height:274px;
+  background-color:rgba(0, 0, 0, 1);
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-79-outer{
+  pointer-events:none;
+  z-index:20;
+  position:relative;
+  display:flex;
+}
+.Imagens-1{
+  position:relative;
+  z-index:16;
+  pointer-events:none;
+  margin-left:142px;
+  width:290px;
+  min-width:290px;
+  height:268px;
+  margin-top:-748px;
+  margin-bottom:477px;
+  min-height:268px;
+}
+.Imagens-1-outer{
+  pointer-events:none;
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.Rectangle-74-1{
+  position:relative;
+  z-index:17;
+  pointer-events:none;
+  margin-left:0%;
+  width:100%;
+  height:100%;
+  margin-top:0%;
+  background-image:url(assets/images/Rectangle_74_1.png);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:4px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-74-1-outer{
+  pointer-events:none;
+  z-index:17;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Alongamento-de-unhas{
+  position:relative;
+  z-index:23;
+  pointer-events:none;
+  margin-left:747px;
+  width:275px;
+  min-width:275px;
+  margin-top:-746px;
+  margin-bottom:698px;
+  min-height:45px;
+  text-align:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.Alongamento-de-unhas-outer{
+  pointer-events:none;
+  z-index:23;
+  position:relative;
+  display:flex;
+}
+.Alongamento-de-unhas-1{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.Alongamento-de-unhas-2{
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.O-alongamento-de-unh{
+  position:relative;
+  z-index:22;
+  pointer-events:none;
+  margin-left:492px;
+  width:784px;
+  min-width:784px;
+  margin-top:-698px;
+  margin-bottom:487px;
+  min-height:208px;
+  text-align:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:nullpx;
+  line-height: 1.8;
+}
+.O-alongamento-de-unh-outer{
+  pointer-events:none;
+  z-index:22;
+  position:relative;
+  display:flex;
+}
+.O-alongamento-de-unh-1{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:24px;
+  line-height:15px;
+}
+.O-alongamento-de-unh-2{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:22px;
+  line-height:15px;
+}
+.Rectangle-80{
+  position:relative;
+  z-index:21;
+  pointer-events:none;
+  margin-left:484px;
+  width:811px;
+  min-width:811px;
+  height:268px;
+  margin-top:-397px;
+  margin-bottom:126px;
+  min-height:268px;
+  background-color:rgba(0, 0, 0, 1);
+  border:1px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-80-outer{
+  pointer-events:none;
+  z-index:21;
+  position:relative;
+  display:flex;
+}
+.Imagens{
+  position:relative;
+  z-index:18;
+  pointer-events:none;
+  margin-left:142px;
+  width:290px;
+  min-width:290px;
+  height:268px;
+  margin-top:-397px;
+  margin-bottom:126px;
+  min-height:268px;
+}
+.Imagens-outer{
+  pointer-events:none;
+  z-index:18;
+  position:relative;
+  display:flex;
+}
+.Rectangle-74{
+  position:relative;
+  z-index:19;
+  pointer-events:none;
+  margin-left:0%;
+  width:100%;
+  height:100%;
+  margin-top:0%;
+  background-image:url(assets/images/Rectangle_74.png);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:4px solid rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+}
+.Rectangle-74-outer{
+  pointer-events:none;
+  z-index:19;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.M-o-e-P-{
+  position:relative;
+  z-index:25;
+  pointer-events:none;
+  margin-left:754px;
+  width:271px;
+  min-width:271px;
+  margin-top:-384px;
+  margin-bottom:346px;
+  min-height:35px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.M-o-e-P--outer{
+  pointer-events:none;
+  z-index:25;
+  position:relative;
+  display:flex;
+}
+.M-o-e-P--Tradicional{
+  position:relative;
+  z-index:24;
+  pointer-events:none;
+  margin-left:633px;
+  width:514px;
+  min-width:514px;
+  margin-top:-349px;
+  margin-bottom:139px;
+  min-height:207px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Baumans;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+}
+.M-o-e-P--Tradicional-outer{
+  pointer-events:none;
+  z-index:24;
+  position:relative;
+  display:flex;
+}
+a {
+  color: white;
+}
