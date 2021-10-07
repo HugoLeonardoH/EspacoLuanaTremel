@@ -192,7 +192,7 @@
   width:101.04529616724739%;
   height:100%;
   margin-top:-0.34843205574912894%;
-  background-image:url(./assets/images/Escova.JPG);
+  background-image:url(../assets/images/Escova.JPG);
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -248,7 +248,7 @@
   margin-top:-351px;
   margin-bottom:77.88px;
   min-height:270.12px;
-  content:url(./assets/images/marrr.png);
+  content:url(../assets/images/marrr.png);
 }
 .Escova-1-outer{
   pointer-events:none;
@@ -305,7 +305,7 @@
   width:101.04529616724739%;
   height:100%;
   margin-top:-0.34843205574912894%;
-  background-image:url(./assets/images/Escova.JPG);
+  background-image:url(../assets/images/Escova.JPG);
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
